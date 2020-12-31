@@ -1,0 +1,40 @@
+#gallery {
+    position: relative;
+}
+#gallery ul {
+    width: 250px;
+    list-style-type: none;
+}
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#gallery span {
+    display: none;
+}
+#gallery a:hover span {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    text-align: center;
+}
+#gallery a { text-decoration: none; 
+    color: #333; 
+    font-style: italic; }
+
+
+ @media only screen and (min-width : 768px) and (max-width : 1024px)  {
+    #gallery a:hover span {
+        display: block;
+        position: initial;
+    }
+}
+
+@media only screen and (min-width : 350px) and (max-width : 767px)  {
+    #gallery a:hover span {
+        display: block;
+        position: initial;
+    }
+}

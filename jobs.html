@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaJam Coffee House Menu</title>
+    <link rel="stylesheet" href="../javajam/styles/index.css">
+    <link rel="stylesheet" href="../javajam/styles/jobs.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee House</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a>
+                    <ul class="second-level-menu">
+                        <li><a href="#">Hot Brews</a></li>
+                        <li><a href="#">Cold Brews</a></li>
+                    </ul>
+                </li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Jobs at JavaJam</h2>
+            <p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked
+                with an asterisk (*).</p>
+            <form method="get">
+                <table>
+                    <tr>
+                        <td><label for="myName">*Name:</label></td>
+                        <td><input type="text" id="myName" name="myName"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">*Gender:</label></td>
+                        <td><input type="radio" name="gender" value="male" checked>Male
+                            <input type="radio" name="gender" value="female">Female</td>
+                    </tr>
+                    <tr>
+                        <td><label for="myEmail">*E-mail:</label></td>
+                        <td><input type="text" type="email" id="myEmail" name="myEmail"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="myExperience">*Experience:</label></td>
+                        <td><textarea id="myExperience" name="myExperience" cols="20" rows="2"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Apply Now" id="mySubmit" /></td>
+                    </tr>
+                </table>
+            </form>
+        </main>
+        <footer>
+            Copyright &copy 2018 JavaJam Coffee House<br>
+            <a href="mailto:tiwari.aa@husky.neu.edu">tiwari.aa@husky.neu.edu</a>
+        </footer>
+    </div>
+</body>
+
+</html>
